@@ -1,0 +1,654 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.contain1{
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.hero-landing{
+    height: 100vh;
+    /* background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./img/Rectangle\ 2\(1\).jpg); */
+    background-image: url(./img/Rectangle\ 2\(1\).jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}.logo1{
+    float: left;
+    padding: 1rem 4rem;
+}
+
+nav{
+    padding: 1rem 4rem;
+}
+.logo1{
+    float: left;
+}
+
+.topnav {
+    font-family: 'Mulish', sans-serif;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+  .topnav a{
+    font-size: 1.1em;
+    color: white;
+    padding-right:3rem;
+    text-decoration: none;
+
+  }
+
+  .topnav .active{
+    color: #0052FF;
+  }
+
+nav .icon{
+    display: none;
+}  
+
+.hero-landing ul li{
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+    float: right;
+    padding-right:3rem;
+    color: white;
+}
+
+.hero-text{
+    
+    text-align: center;
+    padding: 15% 10%;
+    color: white;
+}
+
+.hero-text h4{
+    font-size: 2.7em;
+}
+
+.hero-text h1{
+    font-size: 4.5em;
+}
+
+.hero-text p{
+    font-size: 1.3em;
+}
+
+.hero-text input{
+    background-color: #0052FF;
+    height: 50px;
+    width: 140px;
+    font-size: 1em;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+
+/* menu cion */
+
+
+
+/* what we do */
+.second-section{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.second-section h5{
+    color: #0052FF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.second-section p{
+    font-size: 1em;
+    color: #5B5B5B;
+}
+
+/* departments */
+
+.department{
+    background-color: #F9F9F9;
+    margin-top: 3em;
+}
+
+.dept-intro{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.dept-intro h3{
+color:#202020;
+font-size: 1.8em;
+}
+
+.dept-intro p{
+    color: #5B5B5B;
+    font-size: 1.3em;
+}
+
+/* Float four columns side by side */
+.department .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .department .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .department .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .department .card {
+      margin-bottom: 2rem;
+    padding: 16px;
+    text-align: center;
+    align-content: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    height: 230px;
+  }
+
+  .department .active1{
+    background-color: #0052FF;
+}
+
+  .department .card img{
+    display: block;
+    margin: auto;
+      height: 100px;
+      width: 100px;
+  }
+
+  .department .card p{
+      color: #0052FF;
+      font-size: 1.3em;
+}
+
+/* Services */
+.services{
+    margin-top: 3rem;
+}
+
+.services h4{
+    color: #0052FF;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.services .column {
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .services .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .services .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .services .card {
+    border: 2px solid rgba(0, 82, 255, 0.5);
+    border-radius: 5px;
+    padding: 16px;   
+    background-color: #ffffff;
+  }
+
+  .services .active2{
+      
+    background-color: #0052FF;
+}
+
+
+.services .active2 h5{
+    color: #F4FFEE;
+}
+
+.services .active2 p{
+    color: #F4FFEE;
+}
+
+.services .active2 .itms{
+    color: #F4FFEE;
+}
+  
+  .services .top-img{
+      display: block;
+      margin: 1.3rem;
+  }
+
+  .services h5{
+    color: #0052FF;
+    font-size: 1.3em;
+  }
+
+  .services p{
+    color: rgba(58, 58, 58, 0.5);
+    font-size: 1em;
+  }
+
+  .services .itms{
+    color: rgba(58, 58, 58, 0.5);
+    font-size: 1em;
+    margin-bottom: 1rem;
+  }
+
+  /* FAQ */
+
+  .faq{
+    background-color: #F9F9F9;
+    margin: 3rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .faq h4{
+      text-align: center;
+    color: #3A3A3A;
+    font-size: 1.8em;
+    padding: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .faqs{
+      position: relative;
+      color: #0052FF;
+      padding: 20px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    border: 1px solid rgba(0, 82, 255, 0.5);
+    border-radius: 10px;
+    font-size: 1.3em;
+  }
+
+  .faqs div{      
+      display: inline-block;
+  }
+
+  .faqs .div1{
+      position: absolute;
+      right: 5%;
+      top: 40%;
+      
+  }
+
+  .faqs .hide{
+      display: none;
+  }
+
+  .faqs .shown{
+      display: contents;
+  }
+
+  .faqs .div2{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.faqs-answers{
+    font-size: 1em;
+    color: rgba(58, 58, 58, 0.5);
+}
+
+.faqs-answers.hide-answer{
+    display: none;
+}
+
+.faq img{
+    background-color: #F9F9F9;
+    height: 500px;
+    display: block;
+    padding-left:5rem;
+    padding-right:5rem;
+}
+
+
+
+.faq input{
+    background: #0052FF;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+}
+
+/* specialists */
+
+.specialists{
+    margin-bottom: 2rem;
+}
+
+.specialists h4{
+    color: #3A3A3A;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.specialists .card{
+    border: 2px solid rgba(0, 82, 255, 0.5);
+    border-radius: 10px;
+}
+
+.specialists img{
+    border: none;
+}
+
+.specialists h5{
+    color: #3A3A3A;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.specialists p{
+    color: #0052FF;
+    font-size: 1em;
+    text-align: center;
+}
+
+.specialists .days{
+    padding: 0.7rem;
+}
+
+.specialists span{
+    color: rgba(58, 58, 58, 0.5);
+    font-size: 1em;
+}
+
+.specialists .righted{
+    float: right;
+}
+
+/* testimonials */
+
+.testimonials{
+    text-align: center;
+    color: white;
+    background-image: url(./img/Rectangle\ 41.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.testimonials .test-contents{
+    background-color: rgba(0, 82, 255, 0.5);
+    
+}
+
+.testimonials h4{
+    padding: 2rem;
+    font-size: 1.8em;
+
+}
+
+.testimonials p{
+    font-size: 1.1em;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 1rem;
+}
+
+.testimonials .stars{
+    padding-bottom: 3rem;
+}
+
+.testimonials .back-icons{
+    padding: 1.5rem;
+}
+
+/* appointment */
+
+fieldset 
+	{
+		border: 1px solid #ddd !important;
+		margin: 0;
+		min-width: 0;
+		padding: 10px;       
+		position: relative;
+		border-radius:4px;
+		background-color:#f5f5f5;
+		padding-left:10px!important;
+	}	
+	
+		legend
+		{
+			font-size:14px;
+			font-weight:bold;
+			margin-bottom: 0px; 
+			width: 35%; 
+			border: 1px solid #ddd;
+			border-radius: 4px; 
+			padding: 5px 5px 5px 10px; 
+			background-color: #ffffff;
+        }
+
+        /* map */
+
+.map img{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+        
+        /* Contact us */
+
+.contact-us{
+    margin-top: 0;
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact-us .contact-intro{
+    padding-bottom: 2rem;
+}
+
+.contact-us h4{
+    font-size: 1.8em;
+    color: #000000;;
+}
+
+.contact-us p{
+    font-size: 1.1em;
+    color: #3A3A3A;
+}
+
+.contact-us .para-two{
+    color: rgba(58, 58, 58, 0.5);
+    font: 1.05em;
+}
+
+/* footer */
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    background-color: #0052FF;
+    color: white;
+}
+
+footer h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer img{
+    padding-right:3.5rem ;
+}
+
+
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+
+    body{
+        font-size: 60%;
+    }
+
+
+    .clear-float{
+        clear: left;
+    }
+
+    .topnav{
+        font-family: 'Mulish', sans-serif;
+        float: none;
+        text-align: right;
+        text-decoration: none;
+    
+        
+      }
+    
+      .topnav a{
+        display: none;
+        padding-right:3rem;
+      }
+
+.topnav.responsive{
+    position: relative;
+  }
+
+  .topnav.responsive a{
+      display: contents;
+    color: white;
+    
+    padding-top: 1.5rem;
+    text-decoration: none;
+    font-size: 12px;
+  
+  }    
+
+   .topnav a.icon {
+        float: right;
+        display: contents;
+        font-size: 15px;
+        /* display: block; */
+   }
+
+   .topnav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+
+   /*  */
+
+   .hero-text{
+    padding: 42% 10%;
+
+}
+
+.hero-text input{
+    height: 30px;
+    width: 90px;
+}
+
+/* second section */
+
+.second-section{
+    padding-top: 50px;
+}
+
+.second-section img{
+    height: 60px;
+}
+
+/* third section */
+
+.department .dept-intro p{
+    padding: 3px 50px;
+}
+
+    .department .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .department .card {
+      height: 150px;
+    }
+  
+    .department .card img{
+      display: block;
+      margin: auto;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* faq */
+
+    /* .faq{
+        text-align: center;
+    } */
+
+    .faq img{
+    display: none;
+    }
+
+    .faq .center-btn{
+        text-align: center;
+    }
+
+    .faq input{
+        margin-top: 2rem;
+        align-items: center;
+        background: #0052FF;
+        padding: 8px 20px;
+        border: none;
+        color: white;
+    }
+
+    /* specialists */
+
+    .specialists .card{
+        margin: 0.5rem 3rem;
+    }
+
+    .specialists img{
+        object-fit: cover;
+        height: 200px;
+    }
+
+    .services .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+  }
+
+
+
+
+
+
